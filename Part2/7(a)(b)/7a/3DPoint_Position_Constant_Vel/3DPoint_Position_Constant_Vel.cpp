@@ -1,5 +1,6 @@
 // 3DPoint_Position_Constant_Vel.cpp : Author Jacobo Orozco Ardila
-// In this ocation I shall write the ecuation 
+// In this ocation I shall write the ecuation Given a 3D point starting at 
+//position P1 and moving with constant velocity vector V, write an equation for position P2 of the point after elapsed time t.
 
 #include <iostream>
 
@@ -20,12 +21,12 @@ int main()
         constant_velocity[0], point_original_position[0], constant_velocity[1], point_original_position[1], constant_velocity[2], point_original_position[2]);
 
     printf("Since the elapsed time is 5 seconds, the position of the point shall be: \n");
-    printf("<%f + %f>i + <%f  + %f>j + <%f + %f>k \n", constant_velocity[0] * 5.0, point_original_position[0],
-        constant_velocity[1] * 5, point_original_position[1], constant_velocity[2] * 5, point_original_position[2]);
+    printf("<%f + %f>i + <%f  + %f>j + <%f + %f>k \n", constant_velocity[0] * time_elapsed, point_original_position[0],
+        constant_velocity[1] * time_elapsed, point_original_position[1], constant_velocity[2] * time_elapsed, point_original_position[2]);
 
     printf("Since the elapsed time is 5 seconds, and after adding the final results, the position of the point shall be: \n");
-    printf("<%f>i + <%f>j + <%f>k \n", constant_velocity[0] * 5.0 + point_original_position[0],
-        constant_velocity[1] * 5 + point_original_position[1], constant_velocity[2] * 5 + point_original_position[2]);
+    printf("<%f>i + <%f>j + <%f>k \n", constant_velocity[0] * time_elapsed + point_original_position[0],
+        constant_velocity[1] * time_elapsed + point_original_position[1], constant_velocity[2] * time_elapsed + point_original_position[2]);
 }
 
 
