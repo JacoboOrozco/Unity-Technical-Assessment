@@ -1,0 +1,8 @@
+(a)Describe the difference between a stack and a queue
+R/ Stacks are based on the LIFO principle, meaning the last element inserted is the first element to come out of the list. While a queue is based on the FIFO principle, meaning the first element inserted, is the first element to come out of the list.
+Insertion and deletion in stacks takes place only from one end of the list called the top. Insertion and deletion in queues takes place from the opposite ends of the list, meaning insertion takes place at the rear of the list and the deletion takes place from the front of the list.
+In stacks we maintain only one pointer to access the list, called the top, which always points to the last element present in the list. In queues we maintain two pointers to access the list. The front pointer always points to the first element inserted in the list and is still present, and the rear pointer always points to the last inserted element.
+
+The most basic way to look at it is this way:
+A stack can be imagined as a stack of plates on a sink, the last one you pile is the first one you wash, last in first out.
+A queue as it's name sugests can be imagined as a queue of maximum 5 poeple (for example's sake) lined up to buy a hotdog, if you arrive last, meaning fifth you will be the last person to buy the hotdog and the person who arrived first shall be the hotdog before everyone. First In First Out.
